@@ -72,9 +72,28 @@ body {
     margin-bottom: 40px;
 }
 
-.form, .form input, .form button {
+.form {
     margin-bottom: 10px;
     font-size: 2rem;
+}
+
+.form input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.form button {
+    height: 60px;
+    width: 140px;
+    border-color: #000;
+    background-color: #0004;
+    /* background-color: #ffdb4d; */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .doors {
@@ -83,4 +102,5 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 </style>
